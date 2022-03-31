@@ -1,6 +1,10 @@
 # flavorsexample
 
-A new Flutter project.
+Un projecto de 3 diferentes flavors, para correrlo use los siguientes commandos para cada flavor distinto:
+-flutter run --flavor app1 -t lib/main_app1.dart
+-flutter run --flavor app2 -t lib/main_app2.dart
+-flutter run --flavor app3 -t lib/main_app3.dart
+
 
 ## Getting Started
 
