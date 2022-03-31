@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var config = AppConfig.of(context);
-    return _buildApp(config!.appDisplayName);
+    return _buildApp(config.appDisplayName);
   }
 
   Widget _buildApp(String appName){

@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(config!.appDisplayName),
+        title: Text(config.appDisplayName),
       ),
       body: _buildBody(
           config.appDisplayName, config.stringResource, config.appInternalId),
